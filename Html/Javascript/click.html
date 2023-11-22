@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>click me</title>
+</head>
+<style>
+</style>
+
+<body>
+    <h1>Boring webpage </h1>
+    <button id="clicker">Boring button </button>
+
+   <script>
+var clickerButton = document.getElementById("clicker");
+var onButtonClick = function() {
+    clickerButton.textContent = "oh wow i made my first website interaction!";  
+};
+    clickerButton.addEventListener("click", onButtonClick);
+
+
+   </script> 
+</body>
+</html>
