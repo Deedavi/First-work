@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Create a solar system</title>
+        <style>
+            body {
+                background-color: black;
+                padding: 10px;
+            }
+            .planet {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                text-align: center;
+                padding: 10px;
+                position: relative;
+            }
+            .moon {
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background: rgb(237, 237, 237);
+            }
+            .mercury {
+                width: 40px;
+                height: 50px;
+                border-radius: 50%;
+                text-align: right;
+                padding: 10px;
+                position: absolute;
+                margin: 30px;
+            }
+            .jupiter {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                text-align: center;
+                padding: 5px;
+                position: absolute;
+                margin: 90px;
+            }
+        </style>
+    </head>
+    <body>
+
+    
+    <script>
+        var NewPlanet = document.createElement("div");
+        NewPlanet.classList.add("planet");
+        NewPlanet.style.backgroundColor = "yellow";
+        document.body.appendChild(NewPlanet);
+        //console.log(planet)
+
+
+        var moon = document.createElement("Divmoon");
+        moon.classList.add("moon");
+        moon.style.backgroundColor = "white";
+        document.body.appendChild(moon);
+        //console.log(moon)
+var mercury = document.createElement ("Divmercury")
+        mercury.classList.add("mercury");
+        mercury.style.backgroundColor = "orange";
+        document.body.appendChild(mercury);
+        //console.log(mercury)
+
+        var jupiter = document.createElement("Divjupiter");
+        jupiter.classList.add("jupiter");
+        jupiter.style.backgroundColor = "brown";
+        document.body.appendChild(jupiter);
+        //console.log(jupiter)
+    </script>
+    </body>
+</html>
